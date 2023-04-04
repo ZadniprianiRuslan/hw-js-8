@@ -1,3 +1,2 @@
-const userName = "Михайло";
-const payment = 350;
-alert("Дякуємо, " + userName + "! " + "До сплати " + payment +  " гривень.");
+const balance = "Ваш баланс поповнено на 1000";
+console.log(balance.length);

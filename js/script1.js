@@ -1,4 +1,3 @@
-const email = "example1@gmail.com";
-console.log(email.includes("@"));
-const symbols = "example1@gmail.com";
-console.log(symbols.length);
+const name = "Ruslan";
+const newName = name.replace("R", "@");
+console.log(newName);
