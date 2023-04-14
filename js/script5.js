@@ -1,4 +1,10 @@
-const pricePerItem = 3500;
-const orderedQuantity = 4;
-const totalPrice = pricePerItem * orderedQuantity;
-console.log(totalPrice);
+const subscription = "pro";
+let cost;
+if (subscription === "free") {
+    cost = 0;
+} else if (subscription === "pro") {
+    cost = 100;
+} else if (subscription === "premium") {
+    cost = 500;
+}
+console.log(cost);

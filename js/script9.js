@@ -1,4 +1,11 @@
-const SAVED_PASSWORD = "12345Y";
-const password = prompt("введіть пароль");
-const isMatch = SAVED_PASSWORD === password;
-console.log(isMatch);
+// let result;
+
+// if (a + b < 4) {
+//   result = "Нижче";
+// } else {
+//   result = "Вище";
+// }
+
+let result;
+result a + b < 4 ? "Нижче" : "Вище";
+console.log(result);

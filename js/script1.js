@@ -1,3 +1,5 @@
-const name = "Ruslan";
-const newName = name.replace("R", "@");
-console.log(newName);
+if ("0") {
+    console.log('Привіт');
+} else {
+    console.log('Скрипт не спрацює');
+}

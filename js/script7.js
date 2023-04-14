@@ -1,6 +1,12 @@
-const pricePerDroid = 800;
-const orderedQuantity = 6;
-const deliveryFee = 50;
-const totalPrice = pricePerDroid * orderedQuantity + deliveryFee;
-const massage = "You ordered droids worth " + totalPrice + " credits." + " Delivery " + "(" + deliveryFee + " credits" + ")" + " is included in total price."
-console.log(massage);
+const age = 55;
+let type;
+
+if (age >= 0 && age <= 16) {
+    type = "child"
+} else if (age >= 17 && age <= 60) {
+    type = "adult"
+} else if (age >= 61 && age <= 100) {
+    type = "old"
+}
+
+console.log(type);
