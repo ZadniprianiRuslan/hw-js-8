@@ -1,11 +1,11 @@
-const name = "Ruslan".length;
+const myName = "Ruslan".length;
 const secondName = "Zadnipriani".length;
-console.log(name);
+console.log(myName);
 console.log(secondName);
 let result;
 
-if (name > 4 && secondName > 5) {
-  result = name.length + secondName.length;
+if (myName > 4 && secondName > 5) {
+  result = myName + secondName;
 } else {
   result = "ОЙ, неможливо виконати умову";
 }
