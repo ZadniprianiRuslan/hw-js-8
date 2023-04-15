@@ -1,9 +1,21 @@
-// 1. Задати користувачу питання і попросити ввести відповідь.
+let month;
+const lang = "ua";
 
-let massage = prompt("Яка “офіційна” назва JavaScript?");
-console.log(massage);
-if (massage === "ECMAScript") {
-    alert("Правильно!");
-} else {
-    alert("Ви не знаєте? ECMAScript!");
+switch (lang) {
+  case "ua":
+    month = "Січень";
+    break;
+
+  case "en":
+    month = "January";
+    break;
+
+  case "fr":
+    month = "Janvier";
+    break;
+
+  default:
+    console.log("Invalid language");
 }
+
+console.log(month);
