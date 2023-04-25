@@ -1,21 +1,5 @@
-let month;
-const lang = "ua";
-
-switch (lang) {
-  case "ua":
-    month = "Січень";
-    break;
-
-  case "en":
-    month = "January";
-    break;
-
-  case "fr":
-    month = "Janvier";
-    break;
-
-  default:
-    console.log("Invalid language");
+let number = 1;
+for (let i = 12; i <= 27; i += 1) {
+  number += i;
+  console.log(number);
 }
-
-console.log(month);
